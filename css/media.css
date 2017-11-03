@@ -94,19 +94,20 @@
     #nav-content .nav ul .min-nav-menu .nav-hid-menu a:hover{
         color: #F60;
     }
-    @media screen and (max-width:599px){
-        #nav-content .nav ul{
-            width: 300px;
-            height: 60px;
-            margin: auto;
-        }
-        #nav-content .nav ul .nav-main{
-            line-height: 50px;
-            margin-left: 10px;
-        }
-        #nav-content .nav ul li + li{
-            margin-left: 16px;        
-        }
-    }
+  
 }
 
+@media screen and (max-width:599px){
+    #nav-content .nav ul{
+        width: 300px;
+        height: 60px;
+        margin: auto;
+    }
+    #nav-content .nav ul .nav-main{
+        line-height: 50px;
+        margin-left: 10px;
+    }
+    #nav-content .nav ul li + li{
+        margin-left: 16px;        
+    }
+}

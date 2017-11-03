@@ -75,9 +75,11 @@ html{
     font-size: 15px;
     font-weight: 400;
 }
-
-#nav-content .nav ul li a:active{
+#nav-content .nav ul li a:hover{
     color: #F60;
+}
+#nav-content .nav ul li a:active{
+    color:#F06;
 }
 #nav-content .nav ul .nav-main{
     line-height: 70px;
@@ -85,4 +87,7 @@ html{
 #nav-content .nav ul .nav-main a{
     color:#a7c31e;
     font-size: 14px;
+}
+#nav-content .nav ul .min-nav-menu{
+    display: none;
 }

@@ -1,0 +1,99 @@
+/* 初始化css */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block; }
+table{border-collapse:collapse;border-spacing:0}
+audio,canvas,video { display: inline-block;*display: inline;*zoom: 1;}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select{*font-size:100%}
+
+/* 导航栏 */
+html{
+    font-family:"Microsoft YaHei", sans-serif;
+}
+.clearfix:after{
+    display: block;
+    content:"";
+    height: 0;
+    clear: both;
+}
+#nav-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background: #E9EBEE;
+    box-shadow:0 2px 5px #ddd;
+    z-index: 99;
+}
+
+#nav-content{
+    max-width: 1100px;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+#nav-content .logo{
+    float: left;
+    width: 130px;
+    height: 100%;
+    line-height: 86px;
+}
+
+#nav-content .logo img{
+    margin-left: 10px;
+}
+
+#nav-content .nav{
+    float: right;
+    height: 100%;
+    width: 880px;
+}
+
+#nav-content .nav ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+#nav-content .nav ul li{
+    float: left;
+    height: 100%;
+    padding: 0 5px;
+    line-height: 65px;
+    margin-left: 70px;
+}
+
+#nav-content .nav ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+#nav-content .nav ul li a:hover{
+    color: #F60;
+}
+#nav-content .nav ul li a:active{
+    color:#F06;
+}
+#nav-content .nav ul .nav-main{
+    line-height: 70px;
+}
+#nav-content .nav ul .nav-main a{
+    color:#a7c31e;
+    font-size: 14px;
+}
+#nav-content .nav ul .min-nav-menu{
+    display: none;
+}

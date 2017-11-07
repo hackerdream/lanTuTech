@@ -1,5 +1,6 @@
-/* 导航栏的自媒体查询 */
 @media screen and (min-width:900px) and (max-width:1200px){
+
+    /* 导航栏的自媒体查询 */    
     #nav-content{
         width: 90%;
     }
@@ -9,9 +10,74 @@
     #nav-content .nav ul li{
         margin-left: 40px;
     }
+
+    /* 轮播第一图 */
+    #content{
+        height: 450px;
+    }
+    #content .c-pic1 .c-pic-r{
+        width: 500px;
+        height: 380px;
+        margin: 65px 40px 0 0;
+    }
+    #content .c-pic1 .c-pic-r .c-pic1-video{
+        top:20px;
+        left:76px;
+        width: 338px;
+        height: 227px;
+    }
+
+    /* 第二轮播图 */
+    #content .c-pic2 .c-pic-r{
+        width: 550px;
+        height: 382px;
+    }
+    #content .c-pic2 .c-pic-l{
+        bottom: 150px;
+        width: 250px;
+        height: 110px;
+    }
+    /* 第三轮播图 */
+    #content .c-pic3 .c-pic-l{
+        margin-left: 30px;
+        width: 500px;
+        height: 375px;
+    }
+    #content .c-pic3 .c-pic-r{
+        bottom:130px;
+        right: 50px;
+        width: 255px;
+        height: 110px;
+    }
+
+    /* 手机轮播 */
+    #classic .c-title{
+        width: 520px;
+        height: 120px;
+    }
+    #classic .c-title img{
+        width: 260px;
+        height: 16.6px;
+    }
+    #classic .c-title p{
+        font-size: 20px;  
+        margin-top: 15px;      
+    }
+
+    #classic .c-list{
+        width: 900px;
+    }
+    #classic .c-list ul{
+        left: -360px;
+    }
+    #classic .c-list ul li{
+        width: 180px;
+        height: 295px;
+    }
 }
 
 @media screen and (max-width:899px){
+    /* 导航 */
     #nav-box{
         height: 100px;
         background: #fff;
@@ -94,10 +160,86 @@
     #nav-content .nav ul .min-nav-menu .nav-hid-menu a:hover{
         color: #F60;
     }
-  
+
+    /* 第一轮播图 */
+    #content{
+        margin-top: 105px;
+        height: 350px;
+    }
+    #content .c-pic1 .c-pic-r{
+        margin: 10px calc(50% - 164px) 0 0; 
+        width: 328px;
+        height: 245px;
+    }
+    #content .c-pic1 .c-pic-r .c-pic1-video{
+        top:13px;
+        left: 50px;
+        width: 222px;
+        height: 146px;
+    }
+    #content .c-pic1 .c-pic-l{
+        left: calc(50% - 97px);
+        bottom: 0;
+        width:194px;
+        height: 78px;
+    }
+
+    /* 第二轮播图 */
+    #content .c-pic2 .c-pic-r{
+        margin-right: 10px;
+        width: 300px;
+        height: 265px;
+    }
+    #content .c-pic2 .c-pic-l{
+        bottom: 50px;
+        width: 180px;
+        height: 110px;
+    }
+
+    /* 第三轮播图 */
+    #content .c-pic3 .c-pic-l{
+        margin:50px 0 0 20px;
+        width: 350px;
+        height: 270px;
+    }
+    #content .c-pic3 .c-pic-r{
+        bottom: 160px;
+        right: 50px;
+        width: 200px;
+        height: 90px;
+    }
+
+    /* 手机图轮播 */
+    #classic .c-title{
+        width: 441px;
+        height: 120px;
+    }
+    #classic .c-title img{
+        width: 260px;
+        height: 16.6px;
+    }
+    #classic .c-title p{
+        font-size: 20px;  
+        margin-top: 15px;      
+    }
+    #classic .c-list{
+        width: 600px;
+        height: 510px;
+    }
+    #classic .c-list ul{
+        left: -510px;
+    }
+    #classic .c-list ul li{
+        width: 180px;
+        height: 295px;
+    }
+    #classic .c-list .tab{
+        display: none;
+    }
 }
 
 @media screen and (max-width:599px){
+    /* 导航 */
     #nav-content .nav ul{
         width: 300px;
         height: 60px;
@@ -110,4 +252,51 @@
     #nav-content .nav ul li + li{
         margin-left: 16px;        
     }
+
+    /* 第一轮播图 */
+    #content{
+        height: 400px;
+    }
+    #content .c-pic1 .c-pic-r{
+        margin-top: 20px;
+    }
+    #content .c-pic1 .c-pic-l{
+        bottom:30px;
+    }
+
+    /* 第二轮播图 */
+
+    #content .c-pic2 .c-pic-r{
+        margin: 10px calc(50% - 150px) 0 0;
+        width: 300px;
+        height: 208px; 
+    }
+    #content .c-pic2 .c-pic-l{
+        left:calc(50% - 100px);
+        bottom: 60px;
+        width: 200px;
+    }
+    
+    /* 第三轮播图 */
+    #content .c-pic3 .c-pic-l{
+        margin:0 0 0 calc(50% - 150px);
+        width: 300px;
+        height: 231px;
+    }
+    #content .c-pic3 .c-pic-r{
+        bottom: 60px;
+        right: calc(50% - 100px);
+        width: 200px;
+        height: 90px;
+    }
+
+    /* 手机图轮播 */
+    #classic .c-list{
+        width: 200px;
+    }
+    #classic .c-list ul{
+        width: 2000px;
+        left: -710px;
+    }
 }
+

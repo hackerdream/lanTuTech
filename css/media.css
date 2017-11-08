@@ -1,94 +1,89 @@
-@media screen and (min-width:900px) and (max-width:1200px){
-
-    /* 导航栏的自媒体查询 */    
-    #nav-content{
+@media screen and (min-width:900px) and (max-width:1200px) {
+    /* 导航栏的自媒体查询 */
+    #nav-content {
         width: 90%;
     }
-    #nav-content .nav{
+    #nav-content .nav {
         width: 680px;
     }
-    #nav-content .nav ul li{
+    #nav-content .nav ul li {
         margin-left: 40px;
     }
-
     /* 轮播第一图 */
-    #content{
+    #content {
         height: 450px;
     }
-    #content .c-pic1 .c-pic-r{
+    #content .c-pic1 .c-pic-r {
         width: 500px;
         height: 380px;
         margin: 65px 40px 0 0;
     }
-    #content .c-pic1 .c-pic-r .c-pic1-video{
-        top:20px;
-        left:76px;
+    #content .c-pic1 .c-pic-r .c-pic1-video {
+        top: 20px;
+        left: 76px;
         width: 338px;
         height: 227px;
     }
-
     /* 第二轮播图 */
-    #content .c-pic2 .c-pic-r{
+    #content .c-pic2 .c-pic-r {
         width: 550px;
         height: 382px;
     }
-    #content .c-pic2 .c-pic-l{
+    #content .c-pic2 .c-pic-l {
         bottom: 150px;
         width: 250px;
         height: 110px;
     }
     /* 第三轮播图 */
-    #content .c-pic3 .c-pic-l{
+    #content .c-pic3 .c-pic-l {
         margin-left: 30px;
         width: 500px;
         height: 375px;
     }
-    #content .c-pic3 .c-pic-r{
-        bottom:130px;
+    #content .c-pic3 .c-pic-r {
+        bottom: 130px;
         right: 50px;
         width: 255px;
         height: 110px;
     }
-
     /* 手机轮播 */
-    #classic .c-title{
+    #classic .c-title {
         width: 520px;
         height: 120px;
     }
-    #classic .c-title img{
+    #classic .c-title img {
         width: 260px;
         height: 16.6px;
     }
-    #classic .c-title p{
-        font-size: 20px;  
-        margin-top: 15px;      
+    #classic .c-title p {
+        font-size: 20px;
+        margin-top: 15px;
     }
-
-    #classic .c-list{
+    #classic .c-list {
         width: 900px;
     }
-    #classic .c-list ul{
+    #classic .c-list ul {
         left: -360px;
     }
-    #classic .c-list ul li{
+    #classic .c-list ul li {
         width: 180px;
         height: 295px;
     }
 }
 
-@media screen and (max-width:899px){
+@media screen and (max-width:899px) {
     /* 导航 */
-    #nav-box{
+    #nav-box {
         height: 100px;
         background: #fff;
         border-bottom: 1px solid #ccc;
-        box-shadow: 0 1px 2px 1px rgba(200,200,200,0.8);
+        box-shadow: 0 1px 2px 1px rgba(200, 200, 200, 0.8);
     }
-    #nav-content{
+    #nav-content {
         width: 90%;
         margin: auto;
     }
-    #nav-content .logo{
+    #nav-content .logo {
         display: block;
         width: 100%;
         height: 40px;
@@ -97,206 +92,215 @@
         line-height: 40px;
         margin-top: 10px;
     }
-    #nav-content .logo img{
+    #nav-content .logo img {
         margin: 0;
     }
-    #nav-content .nav{
+    #nav-content .nav {
         width: 100%;
         height: 50px;
         display: block;
     }
-    #nav-content .nav .nav-con{
+    #nav-content .nav .nav-con {
         height: 50px;
     }
-    #nav-content .nav ul{
+    #nav-content .nav ul {
         width: 400px;
         height: 60px;
         margin: auto;
     }
-    #nav-content .nav ul li{
+    #nav-content .nav ul li {
         height: 50px;
         line-height: 50px;
         margin-left: 0;
     }
-    #nav-content .nav ul li + li{
-        margin-left: 40px;        
+    #nav-content .nav ul li+li {
+        margin-left: 40px;
     }
-    #nav-content .nav ul .nav-main{
+    #nav-content .nav ul .nav-main {
         line-height: 50px;
         margin-left: 40px;
     }
-    #nav-content .nav ul .nav-main a{
+    #nav-content .nav ul .nav-main a {
         font-weight: 500;
     }
-    #nav-content .nav ul .min-nav{
+    #nav-content .nav ul .min-nav {
         display: none;
     }
-    #nav-content .nav ul .min-nav-menu{
+    #nav-content .nav ul .min-nav-menu {
         display: block;
         position: relative;
     }
-    #nav-content .nav ul .min-nav-menu img{
+    #nav-content .nav ul .min-nav-menu img {
         width: 14px;
     }
-    #nav-content .nav ul .min-nav-menu .nav-hid-menu{
+    #nav-content .nav ul .min-nav-menu .nav-hid-menu {
         position: absolute;
         display: none;
         bottom: -136px;
         left: -10px;
         width: 80px;
         height: 140px;
-        border:1px solid #000;
+        border: 1px solid #000;
         border-radius: 5px;
         background: #fff;
         line-height: 20px;
     }
-    #nav-content .nav ul .min-nav-menu .nav-hid-menu a{
+    #nav-content .nav ul .min-nav-menu .nav-hid-menu a {
         display: inline-block;
         width: 100%;
         height: 25px;
         text-align: center;
         padding: 5px 0;
     }
-    #nav-content .nav ul .min-nav-menu .nav-hid-menu a:hover{
+    #nav-content .nav ul .min-nav-menu .nav-hid-menu a:hover {
         color: #F60;
     }
-
     /* 第一轮播图 */
-    #content{
+    #content {
         margin-top: 105px;
         height: 350px;
     }
-    #content .c-pic1 .c-pic-r{
-        margin: 10px calc(50% - 164px) 0 0; 
+    #content .c-pic1 .c-pic-r {
+        margin: 10px calc(50% - 164px) 0 0;
         width: 328px;
         height: 245px;
     }
-    #content .c-pic1 .c-pic-r .c-pic1-video{
-        top:13px;
+    #content .c-pic1 .c-pic-r .c-pic1-video {
+        top: 13px;
         left: 50px;
         width: 222px;
         height: 146px;
     }
-    #content .c-pic1 .c-pic-l{
+    #content .c-pic1 .c-pic-l {
         left: calc(50% - 97px);
         bottom: 0;
-        width:194px;
+        width: 194px;
         height: 78px;
     }
-
     /* 第二轮播图 */
-    #content .c-pic2 .c-pic-r{
+    #content .c-pic2 .c-pic-r {
         margin-right: 10px;
         width: 300px;
         height: 265px;
     }
-    #content .c-pic2 .c-pic-l{
+    #content .c-pic2 .c-pic-l {
         bottom: 50px;
         width: 180px;
         height: 110px;
     }
-
     /* 第三轮播图 */
-    #content .c-pic3 .c-pic-l{
-        margin:50px 0 0 20px;
+    #content .c-pic3 .c-pic-l {
+        margin: 50px 0 0 20px;
         width: 350px;
         height: 270px;
     }
-    #content .c-pic3 .c-pic-r{
+    #content .c-pic3 .c-pic-r {
         bottom: 160px;
         right: 50px;
         width: 200px;
         height: 90px;
     }
-
     /* 手机图轮播 */
-    #classic .c-title{
-        width: 441px;
+    #classic .c-title {
+        width: 80%;
         height: 120px;
     }
-    #classic .c-title img{
-        width: 260px;
-        height: 16.6px;
+    #classic .c-title p {
+        width: 100%;
+        font-size: 20px;
+        margin-top: 15px;
     }
-    #classic .c-title p{
-        font-size: 20px;  
-        margin-top: 15px;      
-    }
-    #classic .c-list{
+    #classic .c-list {
         width: 600px;
         height: 510px;
     }
-    #classic .c-list ul{
+    #classic .c-list ul {
         left: -510px;
     }
-    #classic .c-list ul li{
+    #classic .c-list ul li {
         width: 180px;
         height: 295px;
     }
-    #classic .c-list .tab{
+    #classic .c-list .tab {
         display: none;
+    }
+    /* 底部研发伙伴 */
+    #p-list {
+        width: 550px;
+        height: 230px;
+        padding: 50px 0;
+        margin: auto;
+    }
+    #p-list p+p {
+        margin-left: 0;
+    }
+    #p-list p {
+        float: none;
+        display: block;
+        margin: 20px auto !important;
     }
 }
 
-@media screen and (max-width:599px){
+@media screen and (max-width:599px) {
     /* 导航 */
-    #nav-content .nav ul{
+    #nav-content .nav ul {
         width: 300px;
         height: 60px;
         margin: auto;
     }
-    #nav-content .nav ul .nav-main{
+    #nav-content .nav ul .nav-main {
         line-height: 50px;
         margin-left: 10px;
     }
-    #nav-content .nav ul li + li{
-        margin-left: 16px;        
+    #nav-content .nav ul li+li {
+        margin-left: 16px;
     }
-
     /* 第一轮播图 */
-    #content{
+    #content {
         height: 400px;
     }
-    #content .c-pic1 .c-pic-r{
+    #content .c-pic1 .c-pic-r {
         margin-top: 20px;
     }
-    #content .c-pic1 .c-pic-l{
-        bottom:30px;
+    #content .c-pic1 .c-pic-l {
+        bottom: 30px;
     }
-
     /* 第二轮播图 */
-
-    #content .c-pic2 .c-pic-r{
+    #content .c-pic2 .c-pic-r {
         margin: 10px calc(50% - 150px) 0 0;
         width: 300px;
-        height: 208px; 
+        height: 208px;
     }
-    #content .c-pic2 .c-pic-l{
-        left:calc(50% - 100px);
+    #content .c-pic2 .c-pic-l {
+        left: calc(50% - 100px);
         bottom: 60px;
         width: 200px;
     }
-    
     /* 第三轮播图 */
-    #content .c-pic3 .c-pic-l{
-        margin:0 0 0 calc(50% - 150px);
+    #content .c-pic3 .c-pic-l {
+        margin: 0 0 0 calc(50% - 150px);
         width: 300px;
         height: 231px;
     }
-    #content .c-pic3 .c-pic-r{
+    #content .c-pic3 .c-pic-r {
         bottom: 60px;
         right: calc(50% - 100px);
         width: 200px;
         height: 90px;
     }
-
     /* 手机图轮播 */
-    #classic .c-list{
+    #classic .c-list {
         width: 200px;
     }
-    #classic .c-list ul{
+    #classic .c-list ul {
         width: 2000px;
         left: -710px;
     }
+    /* 底部研发伙伴 */
+    #p-list {
+        width: 100%;
+        height: 230px;
+        padding: 50px 0;
+        margin: auto;
+    }
 }
-

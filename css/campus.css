@@ -1,0 +1,255 @@
+#content {
+    width: 100%;
+    margin-top: 75px;
+}
+/* 盒子一 */
+#content .box1 {
+    position: relative;
+    background: url("../img/campus/bg1.jpg")no-repeat center center/cover;
+}
+
+#content .box1 .b1-title {
+    width: 280px;
+    height: 90px;
+    padding: 15% 0 0 30%;
+}
+
+#content .box1 .b1-title>p {
+    color: #fff;
+    text-align: right;
+}
+
+#content .box1 .b1-title>p:nth-child(1) {
+    font-size: 46px;
+}
+
+#content .box1 .b1-title>p:nth-child(2) {
+    font-size: 18px;
+}
+
+#content .box1 .b1-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    background: rgba(147, 147, 147, .7);
+}
+
+#content .box1 .b1-bottom>p:nth-child(1) {
+    line-height: 100px;
+}
+
+#content .b-btn {
+    position: absolute;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#content .box1 .b-btn {
+    top: -23px;
+}
+
+#content .bg {
+    height: 570px;
+}
+
+#content .b1-bg {
+    background: url("../img/campus/bg2.jpg") no-repeat center center/cover fixed;
+}
+
+/* 盒子2以下公共样式 */
+#content .s-box {
+    position: relative;
+    width: 100%;
+    height: 530px;
+    background: #F0F2F5;
+}
+
+#content .s-box .b-btn {
+    bottom: -23px;
+}
+
+/* 盒子2 */
+#content .box2 .b-left {
+    float: left;
+    padding: 10% 0 0 15%;
+    color: #1381B8;
+}
+
+#content .box2 .b-left>p {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+#content .box2 .b-left>p:nth-child(1) {
+    font-size: 40px;
+    line-height: 70px;
+}
+
+#content .box2 .b-right {
+    position: relative;
+    float: right;
+    width: 560px;
+    height: 100%;
+    margin-right: 100px;
+}
+
+#content .box2 .b-right .from-img {
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    z-index: 2;
+}
+
+#content .box2 .b-right .behind-img {
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    z-index: 1;
+    animation: cicle 10s linear infinite;
+}
+
+@keyframes cicle {
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+/* 盒子3 */
+
+#content .box3 ul {
+    list-style: none;
+}
+
+#content .box3 .b-left {
+    float: left;
+    width: 578px;
+    height: 340px;
+    margin: 10% 0 0 15%;
+}
+
+#content .box3 .b-left .b3-img {
+    float: left;
+    width: 324px;
+    height: 324px;
+}
+
+#content .box3 .b-left .b3-img ul {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#content .box3 .b-left .b3-img .m05_img_m {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/campus/m5.png") no-repeat;
+}
+
+#content .box3 .b-left .b3-img .m05_i1 {
+    background-position: 0 0;
+}
+
+#content .box3 .b-left .b3-img .m05_i2 {
+    background-position: 0 -324px;
+}
+
+#content .box3 .b-left .b3-img .m05_i3 {
+    background-position: 0 -648px;
+}
+
+#content .box3 .b-left .b3-img .m05_i4 {
+    background-position: 0 -972px;
+}
+
+#content .box3 .b-left .b3-img .m05_i5 {
+    background-position: 0 -1296px;
+}
+
+#content .box3 .b-left .b3-img .m05_i6 {
+    background-position: 0 -1620px;
+}
+
+#content .box3 .b-left .b3-img .m05_i7 {
+    background-position: 0 -1944px;
+}
+
+#content .box3 .b-left .b3-img .m05_i8 {
+    background-position: 0 -2268px;
+}
+
+#content .box3 .b-left .b3-img .m05_i9 {
+    background-position: 0 -2592px;
+}
+
+#content .box3 .b-left .b3-list {
+    float: right;
+    width: 150px;
+    height: 328px;
+}
+
+#content .box3 .b-left .b3-list>ul {
+    width: 100%;
+}
+
+#content .box3 .b-left .b3-list>ul>li{
+    width: 100%;
+    margin: 15px 0;
+    font-size: 20px;
+    line-height: 20px;
+    color: #0080ba;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+#content .box3 .b-left .b3-list>ul>li>span {
+    display: inline-block;
+    margin-right: 20px;
+    border: 5px solid #B6D230;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-top: -6px;
+}
+#content .box3 .b-left .b3-list>ul .on{
+    font-size: 26px;
+    line-height: 28px;
+}
+#content .box3 .b-right{
+    float: right;
+    margin: 18% 15% 0 0;
+}
+#content .box3 .b-right>p{
+    color: #0080ba;
+    text-align: left;
+    font-size: 18px;
+    line-height: 35px;    
+}
+#content .box3 .b-right>p:first-child{
+    font-size: 40px;
+    line-height: 70px;
+}
+
+#content .b2-bg {
+    background: url("../img/campus/bg3.jpg") no-repeat center center/cover fixed;
+}
+
+#content .b3-bg {
+    background: url("../img/campus/bg4.jpg") no-repeat center center/cover fixed;
+}
+
+#content .b4-bg {
+    background: url("../img/campus/bg5.jpg") no-repeat center center/cover fixed;
+}
+
+#content .b5-bg {
+    background: url("../img/campus/bg6.jpg") no-repeat center center/cover fixed;
+}

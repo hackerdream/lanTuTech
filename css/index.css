@@ -237,11 +237,13 @@
     font-size: 30px;
     margin-top: 30px;
 }
-#classic .c-box{
+
+#classic .c-box {
     position: relative;
     width: 100%;
     margin: 0 auto;
 }
+
 #classic .c-list {
     position: relative;
     width: 1200px;
@@ -253,11 +255,10 @@
 #classic .c-list ul {
     position: absolute;
     left: -480px;
-    top: 0;    
+    top: 0;
     list-style: none;
     width: 200%;
     transition: left .3s;
-    
 }
 
 #classic .c-list ul li {
@@ -304,22 +305,59 @@
     right: 40px;
 }
 
-#classic .tab{
+#classic .tab {
     position: absolute;
     bottom: 40px;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
 }
 
-#classic .tab span{
+#classic .tab span {
     float: left;
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    margin-left: 5px;    
+    margin-left: 5px;
     border: 3px solid #5190B1;
     background: #5190B1;
 }
-#classic .tab .on{
-    border:3px solid #A7C132;
+
+#classic .tab .on {
+    border: 3px solid #A7C132;
+}
+
+
+/* 底部合作伙伴 */
+
+#p-list {
+    width: 800px;
+    height: 52px;
+    padding: 100px 0;
+    margin: auto;
+}
+
+#p-list p {
+    float: left;
+    height: 50px;
+}
+
+#p-list p+p {
+    margin-left: 120px;
+}
+
+#p-list p:nth-child(1) {
+    width: 218px;
+}
+
+#p-list p:nth-child(2) {
+    width: 120px;
+}
+
+#p-list p:nth-child(3) {
+    width: 213px;
+}
+
+#p-list p img {
+    width: 100%;
+    height: 100%;
 }

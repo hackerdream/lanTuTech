@@ -69,7 +69,7 @@
             len = $li.length;
         leftNum = $li.eq(0).width();
 
-        //初始化
+        //初始化Í
         let mid = Math.floor(len / 2),
             time = new Date();
 

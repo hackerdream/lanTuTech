@@ -87,11 +87,13 @@ html{
 #nav-content .nav ul li a:active{
     color:#F06;
 }
+#nav-content .nav ul li a .on{
+    color:#a7c31e;
+}
 #nav-content .nav ul .nav-main{
     line-height: 70px;
 }
 #nav-content .nav ul .nav-main a{
-    color:#a7c31e;
     font-size: 14px;
 }
 #nav-content .nav ul .min-nav-menu{

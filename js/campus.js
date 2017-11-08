@@ -15,7 +15,7 @@
     let $content = $("#content"),
         $box = $content.find(".box"),
         $btn = $content.find(".b-btn");
-    console.log($("#nav-box").height());
+
     $btn.click(function () {
         let top = $box.eq($(this).index(".b-btn") + 1).offset().top - ($(window).height() - $box.eq($(this).index(".b-btn") + 1).height() + $("#nav-box").height()) / 2;
         $("html").animate({
@@ -33,24 +33,35 @@
         index = 0;
 
     //初始化
-    $imgs.eq(index).show();
-    $list.eq(index).addClass("on");
+    run();
 
-    $list.click(function () {
-        $imgs.eq(index).fadeOut(800).prevObject.eq($(this).index(".b3-list li")).fadeIn(800);
-        $list.removeClass().eq($(this).index(".b3-list li")).addClass("on");
-        index = $(this).index(".b3-list li");
+    $(window).resize(function () {
+        clearInterval(time);
+        ($(window).width()> 600)?$list.removeClass().eq(index).addClass("on"):$list.removeClass().eq(index).addClass("col");
+        setTimeout(run(),1000);
     })
-    // 自动轮播
-    play();
-    function play(){
-        time = setInterval(function(){
-            $imgs.eq(index).fadeOut(800);
-            $list.removeClass()
-            index = ++index % len;
-            console.log(index);
-            $imgs.eq(index).fadeIn(800);
-            $list.eq(index).addClass("on");
-        },3000)
+
+    function run() {
+        $imgs.eq(index).show();
+        ($(window).width() > 600)?$list.eq(index).addClass("on"):$list.eq(index).addClass("col")
+
+        $list.click(function () {
+            $imgs.eq(index).fadeOut(800).prevObject.eq($(this).index(".b3-list li")).fadeIn(800);
+            ($(window).width() > 600)?$list.removeClass().eq($(this).index(".b3-list li")).addClass("on"):$list.removeClass().eq($(this).index(".b3-list li")).addClass("col");
+            index = $(this).index(".b3-list li");
+        })
+        // 自动轮播
+        play();
+
+        function play() {
+            time = setInterval(function () {
+                $imgs.eq(index).fadeOut(800);
+                $list.removeClass()
+                index = ++index % len;
+                $imgs.eq(index).fadeIn(800);
+                ($(window).width() > 600)?$list.eq(index).addClass("on"):$list.eq(index).addClass("col");
+            }, 3000)
+        }
     }
+
 })()

@@ -2,4 +2,4 @@
 
 纯前端内容
 
-预览：[展示地址](!http://http://www.alfrednoel.cc/lanTuTech/)
+预览：[展示地址](http://http://www.alfrednoel.cc/lanTuTech/)
